@@ -19,8 +19,13 @@ public class for_loop_gauntlet {
                 System.out.println();
             }
         }
-        for (int c = 1; c<7; c++){
-          //  for (int d = 0; d<)
+        int seven = 1;
+        for (int c = 0; c<7; c++){
+        	for (int d = 0; d<seven; d++) {
+        		System.out.print("* "); 
+        	}
+        	seven = seven+1;
+        	System.out.println("");
         }
 
     }
