@@ -30,7 +30,7 @@ public class SkillPractice {
 
 
 		// Ask the user how tall they are (inches)
-		String inch = JOptionPane.showInputDialog(null,"How tall are you?");
+		String inch = JOptionPane.showInputDialog(null,"How tall are you? (In Inches)");
 		int inches = Integer.parseInt(inch);
 
 
@@ -102,19 +102,18 @@ public class SkillPractice {
 
 		// If there is more than 1 car, use a pop-up to display how many wheels the // cars have between them.
 			if (car>1) {
-				
+				JOptionPane.showMessageDialog(null,"I bet your cars have in total "+car*4+" wheels.");
 			}
 
 
 		}
 
 		void skill5() { // In a pop-up, ask the user for the name of their school
-
+JOptionPane.showInputDialog(null, "Whats your school's name?");
 
 
 		// In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message.
-
-
+		JOptionPane.showMessageDialog(null, "Your school is a fantastic school");
 
 		}
 }
